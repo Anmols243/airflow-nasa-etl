@@ -1,0 +1,14 @@
+# Core Airflow
+apache-airflow==2.9.3
+
+# If you plan to push to S3 or use AWS hooks
+apache-airflow-providers-amazon==8.6.0
+
+# HTTP requests
+requests>=2.25.1
+
+# Data munging
+pandas>=1.4.0
+
+# S3 filesystem support (optional, if you use s3fs in your ETL)
+s3fs>=0.5.2
